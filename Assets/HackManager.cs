@@ -216,7 +216,7 @@ public class HackManager : MonoBehaviour
             Debug.Log("win!!!");
             win.gameObject.SetActive(true);
         }
-        if (currentBufferIndex == bufferList.Count)
+        else if (currentBufferIndex == bufferList.Count)
         {
             lose.gameObject.SetActive(true);
         }
